@@ -22,7 +22,7 @@ module.exports = {
   }),
 
   module: {
-    rules: [common.loaders.babel],
+    rules: [common.loaders.babel, common.loaders.assets],
   },
 
   devServer: {

@@ -32,6 +32,10 @@ module.exports = {
         path.join(paths.root, 'node_modules', '@entria'),
       ],
     },
+    assets: {
+      test: /\.(png|jpg)$/,
+      use: ['url-loader']
+    },
   },
 
   plugins: {
